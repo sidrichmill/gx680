@@ -1,6 +1,12 @@
 # gx680
 Documentation of the Fujifilm GX680 medium format SLR and its systems
 
+## Project Goals
+- Document GX680 Electrical and Mechanical systems to allow for modification and repair
+- Design new shutter controller to make GX680 lens & shutters usable on other cameras
+- Design new cameras which make use of GX680 lenses and shutters
+- Release hardware and software as open source projects so that they can be built, shared, and improved upon by the community
+
 ## Useful Links
 
 - [Repair Manual](https://learncamerarepair.com/downloads/pdf/Fuji-GX680-Repair-Manual.pdf)
