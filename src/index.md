@@ -16,6 +16,7 @@ eleventyNavigation:
 
 ## Useful Links
 
+- [Searchable Repair Manual](https://github.com/sidrichmill/gx680/raw/main/Fuji-GX680-Repair-Manual_SEARCHABLE.pdf#page=4)
 - [Repair Manual](https://learncamerarepair.com/downloads/pdf/Fuji-GX680-Repair-Manual.pdf)
 - [User Manual](https://ianbfoto.com/downloads/Misc/Fuji_GX680_I_manual.pdf)
 - 3D Printed Parts
