@@ -1,0 +1,14 @@
+<details class="menu-toc" open>
+    <summary>Menu</summary>
+    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+</details>
+
+<style>
+.menu-toc {
+    position: absolute;
+    padding: 1rem;
+    left: 2rem;
+    width: 13rem;
+    background-color: #f1f1f1;
+    }
+</style>

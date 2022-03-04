@@ -1,0 +1,30 @@
+{
+  "name": "gx680",
+  "version": "1.0.0",
+  "description": "Documentation of the Fujifilm GX680 medium format SLR and its systems",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidrichmill/gx680.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidrichmill/gx680/issues"
+  },
+  "homepage": "https://github.com/sidrichmill/gx680#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
+    "markdown-it-table-of-contents": "^0.6.0",
+    "slugify": "^1.6.5"
+  }
+}
