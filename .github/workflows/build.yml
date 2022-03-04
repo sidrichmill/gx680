@@ -3,7 +3,7 @@ name: Build Eleventy
 on:
   push:
     branches:
-      - master
+      - eleventy
 
 jobs:
   build:
