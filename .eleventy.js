@@ -8,6 +8,8 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/content");
+
 
 // Plugin Config
     eleventyConfig.addPlugin(navigationPlugin);
@@ -60,5 +62,7 @@ module.exports = function(eleventyConfig) {
             input: "src",
             output: "_site"
         }
+        markdownTemplateEngine: "njk",
+		htmlTemplateEngine: "njk"
     }
 };
