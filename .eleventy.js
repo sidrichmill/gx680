@@ -58,7 +58,7 @@ module.exports = function(eleventyConfig) {
         pathPrefix: "gx680",
         dir: {
             input: "src",
-            output: "site"
+            output: "_site"
         }
     }
 };
