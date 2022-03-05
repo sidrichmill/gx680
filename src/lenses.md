@@ -11,3 +11,5 @@ eleventyNavigation:
 
 
 ## Lenses for the GX680 System
+
+[Link to Fujifilm's Official Lens Page (Japanese)](https://fujifilm.jp/personal/filmandcamera/filmcamera/mediumformat/gx680iii/lens.html)

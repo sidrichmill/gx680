@@ -19,6 +19,10 @@ eleventyNavigation:
 - [Searchable Repair Manual]({{ '/content/Fuji-GX680-Repair-Manual_SEARCHABLE.pdf' | url }})
 - [Repair Manual](https://learncamerarepair.com/downloads/pdf/Fuji-GX680-Repair-Manual.pdf)
 - [User Manual](https://ianbfoto.com/downloads/Misc/Fuji_GX680_I_manual.pdf)
+- [French Article covering Camera version and all accessories](https://galerie-photo.com/fuji-gx-680-boitiers-et-accessoires.html)
+- Official Fujifilm Website (Japanese)
+  - [GX680III Home Page](https://fujifilm.jp/personal/filmandcamera/filmcamera/mediumformat/gx680iii/index.html)
+  - [Lens Page](https://fujifilm.jp/personal/filmandcamera/filmcamera/mediumformat/gx680iii/lens.html)
 - 3D Printed Parts
   - [18650 Battery Box](https://www.thingiverse.com/thing:3400814)
   - [AA Battery Box](https://www.thingiverse.com/thing:3345830)
