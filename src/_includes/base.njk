@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="{{ '/css/global.css' | url }}">
 </head>
 <body>
-    <article>
-    <h1>{{ title }}</h1>
-    {% include 'nav.njk' %}
-    <p>{{ description }}</p>
-        {{ content | safe }}
-    </article>
+    
+ {% include 'nav.njk' %}
+    <div class="layout">
+        {% include 'menu-toc.njk' %}
+        <div class="content">
+            <h1>{{ title }}</h1>
+            <p>{{ description }}</p>
+                {{ content | safe }}
+        </div>
+    </div>
 </body>
 </html>

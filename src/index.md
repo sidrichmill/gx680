@@ -1,12 +1,15 @@
 ---
 layout: base.njk
-title: GX680
+title: Home
 description: 'Documentation of the Fujifilm GX680 medium format SLR and its systems'
 eleventyNavigation:
     key: Home
 ---
 
+<!---
 [[toc]]
+--->
+
 
 ## Project Goals
 - Document GX680 Electrical and Mechanical systems to allow for modification and repair
