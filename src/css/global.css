@@ -1,13 +1,67 @@
-* {
-font-family: sans-serif;
+body {
+  background: #f3f3f3;
+  color: #252525;
+  line-height: 1.5;
+  font-family: Georgia, serif;
 }
+
+h1,
+h2,
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
+    helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  line-height: 1.1;
+  font-weight: 900;
+  color: #57577a;
+  padding-bottom: .5rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-size: clamp(
+    var(--fluid-type-min, 1rem),
+    calc(1rem + var(--fluid-type-target, 3vw)),
+    var(--fluid-type-max, 1.3rem)
+  );
+}
+h1 {
+  --fluid-type-min: 2.5rem;
+  --fluid-type-max: 3rem;
+  --fluid-type-target: 5vw;
+
+  max-width: 15ch;
+}
+
+h2 {
+  --fluid-type-min: 1.5rem;
+  --fluid-type-max: 2rem;
+}
+
+h3 {
+  --fluid-type-min: 1rem;
+  --fluid-type-max: 1.5rem;
+}
+
+h2,
+h3 {
+  max-width: 30ch;
+}
+
+p {
+  max-width: 60ch;
+}
+
 
 .menu-toc {
     z-index: 1;
-    background-color: #f1f1f1;
-    margin-top: 4rem;
-    padding: 1rem;
-    }
+        padding: 1rem;
+        background-color: #fdfdfd;
+        border-radius: 2px;
+     box-shadow: 0 1px 6px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.15);
+     margin-bottom: 1rem;
+ }
 
 .menu-toc ul {
     margin-left: 0;
@@ -42,10 +96,14 @@ font-weight: 600;
     .menu-toc {
         position: absolute;
         padding: 1rem;
+        margin-top: 4rem;
         width: 13rem;
     }
     .menu-toc summary {
         display: none;
+    }
+    .menu-toc>ul {
+    margin: 0;
     }
 
     .layout {
@@ -62,10 +120,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-
-h2, h3, h4{
-color: #666696;
-}
 
 table {
   border-collapse: collapse;
@@ -84,6 +138,7 @@ nav{
 
     background-color: #f5f5f5;
     padding: 0 1rem 0 1rem;
+    margin-bottom: 1rem;
 }
 
 nav ul{
@@ -99,11 +154,9 @@ nav a {
     display: flex;
     align-items: center;
     color: #222222;
+    text-decoration-thickness: 1px;
 }
 
-.nav-list-items:hover{
-    box-shadow: 1px 1px #555555;
-}
 nav a:not(:hover){
   text-decoration: none;
 }
@@ -122,4 +175,14 @@ nav a:not(:hover){
     font-size: 2rem;
     font-weight: 300;
     color: #222222;
+    padding: 0px;
+}
+
+.direct-link {
+font-weight: 300;
+text-decoration: none;
+}
+
+.direct-link:not(:hover){
+    opacity: .2;
 }
