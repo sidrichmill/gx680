@@ -1,4 +1,4 @@
-body {
+bodyy {
   background: #f3f3f3;
   color: #252525;
   line-height: 1.5;
@@ -19,7 +19,7 @@ h3 {
 h1,
 h2,
 h3,
-p {
+p, a{
   font-size: clamp(
     var(--fluid-type-min, 1rem),
     calc(1rem + var(--fluid-type-target, 3vw)),
@@ -52,7 +52,6 @@ h3 {
 p {
   max-width: 60ch;
 }
-
 
 .menu-toc {
     z-index: 1;
@@ -131,11 +130,10 @@ td, th {
 }
 
 nav{
-
    display: flex;
     width: 100%;
     justify-content: space-between;
-
+    min-height: 6rem;
     background-color: #f5f5f5;
     padding: 0 1rem 0 1rem;
     margin-bottom: 1rem;
@@ -163,7 +161,14 @@ nav a:not(:hover){
 
 .nav-list-items {
     margin: 2px;
-    font-size: 1.25rem;
+  --fluid-type-min: 1.25rem;
+  --fluid-type-max: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
+    helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #57577a;
+
 }
 
 .logo {
